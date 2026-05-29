@@ -1,0 +1,32 @@
+# --- Node & Frontend Excludes ---
+node_modules/
+package-lock.json
+frontend/dist/
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# --- Backend Excludes ---
+backend/target/
+backend/.idea/
+backend/*.iml
+backend/.settings/
+backend/.classpath
+backend/.project
+backend/.factorypath
+backend/bin/
+backend/out/
+
+# --- System & OS Excludes ---
+.DS_Store
+Thumbs.db
+*.log
+.gemini/
+.env
+.env.production
+.env.development
+.env.local
